@@ -1,0 +1,24 @@
+README for zping
+================
+
+I wrote zping to combine features from both the common ping and fping
+programs. In particular, I wanted the -f flag in ping (to enable flood
+ping, sending packets out as fast as they return) and fping's ability to
+ping a long list of hosts.
+
+
+COMPILE AND INSTALL
+-------------------
+
+Usual GNU style.
+
+  $ ./configure
+  $ make
+  $ make install
+
+
+USAGE
+-----
+
+Run 'zping -h' to get summary of command line options.
+
